@@ -7,7 +7,7 @@ menu.onclick=()=>{
     navmenu.classList.toggle('open');
 };
 
-
+  
 
 const sr=ScrollReveal({
     distance:'40px',
