@@ -1,4 +1,4 @@
-let menu =document.querySelector('menu-icon');
+let menu =document.querySelector('#menu-icon');
 let navmenu=document.querySelector(".navmenu");
 
 
@@ -16,7 +16,7 @@ const sr=ScrollReveal({
 });
 
 sr.reveal('.hero-text span', {delay:400});
-sr.reveal('.hero-img', {delay:500,origin:'top'});
+sr.reveal('.hero-img', {delay:600,origin:'top'});
 sr.reveal('.hero-text h5', {delay:500,origin:'bottom'});
 sr.reveal('.hero-text h1', {delay:600,origin:'bottom'});
 sr.reveal('.hero-text p', {delay:700,origin:'top'});
